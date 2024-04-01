@@ -1,7 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using NewsWebsiteServerApp.Data.Models;
 
-namespace NewsWebsiteServerApp.Data;
+namespace NewsSiteData.Data;
 
 public class DataContext : DbContext
 {
@@ -19,6 +20,5 @@ public class DataContext : DbContext
     
     
     public DbSet<NewsArticle> NewsArticles { get; set; }
-    
     
 }

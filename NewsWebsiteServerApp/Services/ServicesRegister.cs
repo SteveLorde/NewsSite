@@ -1,4 +1,5 @@
-﻿using NewsWebsiteServerApp.Data;
+﻿using NewsSiteData.Data;
+using NewsWebsiteServerApp.Data;
 using NewsWebsiteServerApp.Services.NewsRepo;
 
 namespace NewsWebsiteServerApp.Services;

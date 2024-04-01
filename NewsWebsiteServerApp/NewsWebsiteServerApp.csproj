@@ -22,7 +22,11 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Data\DTOs\" />
+      <ProjectReference Include="..\NewsSiteData\NewsSiteData.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Data\" />
     </ItemGroup>
 
 </Project>
